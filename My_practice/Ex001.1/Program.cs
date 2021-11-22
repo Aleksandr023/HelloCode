@@ -1,11 +1,10 @@
 ﻿// проверяем является ли numberA квадратом numberB
 
-int numberA = 49;
+int numberA = 48;
 int numberB = 7;
 
-int result = numberA/numberB;
 
-if(result == numberB)
+if(Math.Sqrt(numberA)==numberB)
 {
     Console.WriteLine("Yes");
 }
