@@ -1,7 +1,7 @@
 ﻿// Выяснить является ли число чётным
 // a%2==0 проверка на четность
-
-int a=12;
+Console.WriteLine("Введите число");
+int a = int.Parse(Console.ReadLine());
 if(a%2==0)
 {
     Console.WriteLine("Yes");
