@@ -1,5 +1,11 @@
 ﻿//Показать числа от -N до N
-int n = int.Parse(Console.ReadLine());
-int [] array = {};
-array.Length = 2*n+1;
-Console.WriteLine(array);
+
+Console.WriteLine("Введите любое число");
+int N = int.Parse(Console.ReadLine());
+int X = -N;
+while (X <= N)
+{
+    Console.Write(X);
+    Console.Write(" ");
+    X++;
+}
