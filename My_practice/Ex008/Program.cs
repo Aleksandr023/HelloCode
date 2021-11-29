@@ -4,7 +4,7 @@ Console.WriteLine("Введите значение N");
 int N = int.Parse(Console.ReadLine());
 
 int result = 1;
-while (result<N+1)
+while (result<=N)
 {
     if (result%2 == 0)
     {

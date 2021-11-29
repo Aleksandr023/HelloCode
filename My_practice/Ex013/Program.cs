@@ -1,14 +1,14 @@
 ﻿// Выяснить, кратно ли число заданному, если нет, вывести остаток.
-int N = new Random().Next(1, 100);
+int N = 28;//new Random().Next(1, 100);
 Console.WriteLine(N);
 Console.WriteLine("Введите своё число");
-int A = int.Parse(Console.ReadLine());
+int A = 5;//int.Parse(Console.ReadLine());
 
-if(A%N==0)
+if(N%A==0)
 {
     Console.WriteLine("OK");
 }
 else 
 {
-    Console.WriteLine(A%N);  // % - покажет нам остаток от деления
+    Console.WriteLine(N%A);  // % - покажет нам остаток от деления
 }
