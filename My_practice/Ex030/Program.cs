@@ -22,9 +22,11 @@ void PrintArray(int[] col)
 }
 
 int[] numbers = new int [15];
+
 FillArray(numbers);
 PrintArray(numbers);
 Console.WriteLine();
+
 int index = 0;
 while (index < numbers.Length) 
 {
