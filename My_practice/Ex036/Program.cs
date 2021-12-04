@@ -24,7 +24,7 @@ void PrintArray(int[] newArray)
     Console.WriteLine();
 }
 
-void EvenOdd(int[] array)
+void EvenOdd(int[] array) // метод нахождения количества четных и нечетных чисел
 {
     int index = 0;
     int length = array.Length;
